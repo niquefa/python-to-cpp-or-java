@@ -3,12 +3,11 @@ Small repo with tools and concept for those looking to change from python to C++
 
 
 Starting the language change from Python to C++ or java for programming contests, has three main differences that could be challenging at first: 
-
--Ending sentences
--Data types.
--Indentation vs brackets.
--Reading data 
--Printing data.
+- [x] Ending sentences
+- [x] Data types.
+- [x] Indentation vs brackets.
+- [ ] Reading data 
+- [x] Printing data.
 
 #Ending sentences
 In Java and C++ practically all sentences and flow and data construction should be ended either by a bracket (}) or by a semicolon (;), this could be specially frustrating in C++ because the compiler warnings and errors are not so specific and precise as the ones in java and even far more obscures that the ones in Python.
