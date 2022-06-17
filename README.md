@@ -202,8 +202,8 @@ As a rule, every java program in a programming contest should have a class and t
 WORK IN PROGRESS
 
 # seful links:
-Notes on C++ in mac:https://codeforces.com/blog/entry/101012
-Reading standard input in python: https://stackoverflow.com/questions/1450393/how-do-i-read-from-stdin 
+* Notes on C++ in mac:https://codeforces.com/blog/entry/101012
+* Reading standard input in python: https://stackoverflow.com/questions/1450393/how-do-i-read-from-stdin 
 
 # Next topics to add to this repo:
 - [ ] Complete the templates for C++ and java
