@@ -9,13 +9,13 @@ Starting the language change from Python to C++ or java for programming contests
 - [ ] Reading data 
 - [x] Printing data.
 
-#Ending sentences
+# Ending sentences
 In Java and C++ practically all sentences and flow and data construction should be ended either by a bracket (}) or by a semicolon (;), this could be specially frustrating in C++ because the compiler warnings and errors are not so specific and precise as the ones in java and even far more obscures that the ones in Python.
 
-#Data types
+# Data types
 In python we are used to just declare, initialize and or use variables without declaring its type (https://realpython.com/python-data-types/), this is because the type is declared during the interpretation. In C++ (https://cplusplus.com/doc/tutorial/variables/ ) and java(https://www.javatpoint.com/java-variables ) we usually specify the types when declaring a variable. Although, there are workarounds for this in both C++ (https://docs.microsoft.com/en-us/cpp/cpp/auto-cpp?view=msvc-170 ) and java (https://www.geeksforgeeks.org/var-keyword-in-java/), but somehow we always must at least use a reserved word to declare a variable, auto in c++ or var in java for example.
 
-#Control structures and loops one liners:
+# Control structures and loops one liners:
 In python we do not use brackets {} to group lines of code in the same level, we use indentation, but in C++ and java we must use brackets, but, we also can do one liners if we omit the brackets, for example in C++:
 
 ```
@@ -62,21 +62,21 @@ Is equivalent to:
  }
 ```
 
-#Reading data
+# Reading data
 In python we are used to reading data line by line, either using input(), raw_input(), sys.stdin and other tools, but it is generally used to read line by line. In C++ and Java we have multiple tools to read either line by line, or token by token, as a general good practice, is better to stick to reading all the input in a problem’s solution line by line or all the input token by token, but not mixing the two ways in the same solution to a problem, mainly because the new line character will be enoing to dealt with.  
 
 
 
-#C++ Reading data line by line
+# C++ Reading data line by line
 WORK IN PROGRESS
 
-#C++ Reading data token by token
+# C++ Reading data token by token
 WORK IN PROGRESS
 
-#Java Reading data line by line
+# Java Reading data line by line
 WORK IN PROGRESS
 
-#Java Reading data token by token
+# Java Reading data token by token
 WORK IN PROGRESS
 
 
@@ -175,7 +175,7 @@ double todouble(string s) {
 }
 ```
 
-#Printing Data
+# Printing Data
 
 The main difference you will notice going from python to C++ or Java in printing data, is that in python we are used to always getting a new line for each call to print(). Although we have a workaround in python to not print the new line, and is use print(“Some message or variable”, end=””) or to use import sys and sys.stdout.write("Hello there!") , but in C++ and java is the other way around, we must explicitly print the new line:
 
@@ -191,17 +191,17 @@ In java we can use StringBuilder to build the answer before printing it and savi
 
 In C++ we have also several tools to fast printing data, but that is not so necessary for the huge majority of cases in programming competitions: https://stackoverflow.com/questions/18412164/fast-c-string-output 
 
-#Extra notes on java
+# Extra notes on java
 As a rule, every java program in a programming contest should have a class and the method main inside that class, and generally that class name should have a specific name, in sites as uva online judge generally is Main, and in contest icpc style generally have should have a specific name related to the problem identification letter or name, make sure your program meets that requirement or you will get a compilation error. .
 
-#Extra notes on C++
+# Extra notes on C++
+WORK IN PROGRESS
 
-
-#Useful links:
+# seful links:
 Notes on C++ in mac:https://codeforces.com/blog/entry/101012
 Reading standard input in python: https://stackoverflow.com/questions/1450393/how-do-i-read-from-stdin 
 
-#Next topics to add to this repo:
+# Next topics to add to this repo:
 - [ ] Complete the templates for C++ and java
 - [ ] Serious C++ advantages over java and python
 - [ ] Serious Java advantages over java and C++
