@@ -203,14 +203,14 @@ Notes on C++ in mac:https://codeforces.com/blog/entry/101012
 Reading standard input in python: https://stackoverflow.com/questions/1450393/how-do-i-read-from-stdin 
 
 #Next topics to add to this repo:
--Complete the templates for C++ and java
--Serious C++ advantages over java and python
--Serious Java advantages over java and C++
--Serious python advantages over java and C++
--Serious C++ disadvantages over java and python
--Serious Java disadvantages over java and C++
--Serious python disadvantages over java and C++
--Compare the use of vector, list in C++ and ArrayList and LinkedList in Java with the lists in python
--Compare the use of set, unordered_set in C++ and TreeSet and HashSet in Java with the sets in python
--Compare the use of map, unordered_map in C++ and TreeMap and HashMap in Java with the maps in python
+- [ ] Complete the templates for C++ and java
+- [ ] Serious C++ advantages over java and python
+- [ ] Serious Java advantages over java and C++
+- [ ] Serious python advantages over java and C++
+- [ ] Serious C++ disadvantages over java and python
+- [ ] Serious Java disadvantages over java and C++
+- [ ] Serious python disadvantages over java and C++
+- [ ] Compare the use of vector, list in C++ and ArrayList and LinkedList in Java with the lists in python
+- [ ] Compare the use of set, unordered_set in C++ and TreeSet and HashSet in Java with the sets in python
+- [ ] Compare the use of map, unordered_map in C++ and TreeMap and HashMap in Java with the maps in python
 
