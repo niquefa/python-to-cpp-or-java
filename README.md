@@ -4,11 +4,11 @@ This is a small repo with tools and concept for those looking to change from pyt
 
 
 Starting the language change from Python to C++ or java for programming contests, has six main differences that could be challenging at first: 
-- [x] Using parenthesis
-- [x] Ending sentences
+- [x] Using parenthesis.
+- [x] Ending sentences.
 - [x] Data types.
 - [x] Indentation vs brackets.
-- [x] Reading data 
+- [x] Reading data.
 - [x] Printing data.
 
 # Using parenthesis
