@@ -76,6 +76,10 @@ When reading line by line, java offers a couple of tools much more simpler to to
 
 In this file https://github.com/niquefa/python-to-cpp-or-java/blob/main/LineByLineWithTestCases.cpp you will find some useful functions to process strings in C++.
 
+I strongly suggest using the terminal to compile and execute programs to take the input from some file. For all the C++ and java templates in this repo, the file sample_input_lines.txt should work.
+
+Check how to do it in C++ https://stackoverflow.com/questions/17531573/command-to-run-c-with-input-from-file and in java https://stackoverflow.com/questions/39151749/input-file-in-java .
+
 # Printing Data
 
 The main difference you will notice going from python to C++ or Java in printing data in programming contests, is that in python we are used to always getting a new line for each call to print(). Although we have a workaround in python to not print the new line, and is use print(“Some message or variable”, end=””) or to use import sys and sys.stdout.write("Hello there!") , but in C++ and java is the other way around, we must explicitly print the new line:
