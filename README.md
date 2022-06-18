@@ -1,6 +1,6 @@
 # Python-to-cpp-or-java-in-programming-contest
 
-This is a small repo with tools and concept for those looking to change from python to C++ and/or java for programming contests.
+This is a small repo with tools and concepts for those looking to change from python to C++ and/or java for programming contests.
 
 
 Starting the language change from Python to C++ or java for programming contests, has six main differences that could be challenging at first: 
