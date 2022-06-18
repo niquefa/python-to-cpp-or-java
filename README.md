@@ -7,7 +7,7 @@ Starting the language change from Python to C++ or java for programming contests
 - [x] Using parenthesis.
 - [x] Ending sentences.
 - [x] Data types.
-- [x] Indentation vs brackets.
+- [x] Indentation and brackets.
 - [x] Reading data.
 - [x] Printing data.
 
@@ -20,8 +20,14 @@ In Java and C++ practically all sentences, flow control sentences and data const
 # Data types
 In python we are used to just declare, initialize and/or use variables without declaring its type (https://realpython.com/python-data-types/), this is because the type is assigned during the interpretation. In C++ (https://cplusplus.com/doc/tutorial/variables/) and java(https://www.javatpoint.com/java-variables) we usually specify the types when declaring a variable, and even inside the argument declarations inside functions(methods in java). Although, there are workarounds for this in both C++ (https://docs.microsoft.com/en-us/cpp/cpp/auto-cpp?view=msvc-170) and java (https://www.geeksforgeeks.org/var-keyword-in-java/), somehow we always must at least use a reserved word to declare a variable, **auto** in c++ or **var** in java for example.
 
-# Control structures and loops one liners:
-In python we do not use brackets **{}** to group lines of code in the same level, we use indentation, but in C++ and java we must use brackets, in fact, correct indentation is desirable for good practices, but not mandatory to get the code to compile, but, we also can do one liners if we omit the brackets, for example in C++:
+# Indentation and brackets
+
+In python we do not use brackets **{}** or semicolons **;** to group lines of code in the same level, we use indentation, but in C++ and java we must use brackets and semicolons, in fact, correct indentation is desirable for good practices, but not mandatory to get the code to compile and run.
+
+
+## One liners in C++ and java
+
+We also can do one liners if we omit the brackets, for example in C++:
 
 ```
  for( int i = 0; i < 10; ++i )
@@ -66,6 +72,8 @@ Is equivalent to:
    } 
  }
 ```
+
+in C++ we can even go further and separate instructions inside a loop with a comma, but, try not to go there, in programming contests time is the most important resource, and going with so tricky aspects of each language will more likely make more harm than good to your team. 
 
 # Reading data
 In python we are used to reading data line by line, either using ```input()```, ```raw_input()```, ```sys.stdin``` and other tools, but it is generally used to read line by line. In C++ and Java we have multiple tools to read either line by line, or token by token (**token** for this purpose is just a fancy synonymous of **word**), as a general good practice, is better to stick to reading all the input in a problem’s solution line by line or all the input token by token, but not mixing the two ways in the same solution to a problem, mainly because the new line characters will be enoing to dealt with.  
