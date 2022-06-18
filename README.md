@@ -92,7 +92,7 @@ cout << “Some message or variable” << answer << endl;
 
 And in Java we use either ```System.out.println(“Some message or variable”)``` for printing with newline, or ```System.out.print(“Some message or variable”)``` to print without newline.
 
-Additionally to these hints about printing in C++ and Java, there are some special tools in both languages for printing with even more speed, thus increasing the advantage of using this languages instead of Python for programming contests.
+Additionally to these hints about printing in C++ and Java, there are some special tools in both languages for printing with even more speed, thus increasing the advantage of using those languages instead of Python for programming contests (just remember that on the long run, the most important thing is your algorithmic knoledge and skill, not the languages you use).
 
 In java we can use StringBuilder to build the answer before printing it and saving time in the process, this is suggested for problems with many data to print: https://www.javatpoint.com/StringBuffer-class.
 
