@@ -82,11 +82,7 @@ In this repo you will find several templates to read data from standard input in
 
 When reading line by line, java offers a couple of tools much more simpler to tokenize or split a string into tokens (words). This will be the ```split()``` method and the ```StringTokenizer``` class. After tokenizing, many times we need to transform strings to native data types (```int```, ```long```, ```double```, etc) or vice versa, and in Java is also quite straightforward using their wrapper classes: https://www.javatpoint.com/wrapper-class-in-java (```Integer```, ```Long```, ```Double```, etc) and the plus operator (```+```) to concatenate native types to Strings. In C++, those tasks are a bit less straightforward, as always there are many ways to do it.
 
-In this file https://github.com/niquefa/python-to-cpp-or-java/blob/main/LineByLineWithTestCases.cpp you will find some useful functions to process strings in C++.
-
-I strongly suggest using the terminal to compile and execute programs to take the input from some file. For all the C++ and java templates in this repo, the file ```sample_input_lines.txt``` should work.
-
-Check how to do it in C++ https://stackoverflow.com/questions/17531573/command-to-run-c-with-input-from-file and in java https://stackoverflow.com/questions/39151749/input-file-in-java.
+In this file https://github.com/niquefa/python-to-cpp-or-java/blob/main/LineByLineWithTestCases.cpp you will find some useful functions to process strings in C++. I strongly suggest using the terminal to compile and execute programs to take the input from some file. For all the C++ and java templates in this repo, the file ```sample_input_lines.txt``` should work. Check how to do it in C++ https://stackoverflow.com/questions/17531573/command-to-run-c-with-input-from-file and in java https://stackoverflow.com/questions/39151749/input-file-in-java.
 
 # Printing Data
 
