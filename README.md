@@ -68,11 +68,11 @@ Is equivalent to:
 ```
 
 # Reading data
-In python we are used to reading data line by line, either using input(), raw_input(), sys.stdin and other tools, but it is generally used to read line by line. In C++ and Java we have multiple tools to read either line by line, or token by token (token for this purpose is just a fancy synonymous of word), as a general good practice, is better to stick to reading all the input in a problem’s solution line by line or all the input token by token, but not mixing the two ways in the same solution to a problem, mainly because the new line characters will be enoing to dealt with.  
+In python we are used to reading data line by line, either using ```input()```, ```raw_input()```, ```sys.stdin``` and other tools, but it is generally used to read line by line. In C++ and Java we have multiple tools to read either line by line, or token by token (token for this purpose is just a fancy synonymous of word), as a general good practice, is better to stick to reading all the input in a problem’s solution line by line or all the input token by token, but not mixing the two ways in the same solution to a problem, mainly because the new line characters will be enoing to dealt with.  
 
 In this repo you will find several templates to read data from standard input in C++ and java. Their names are quite self explanatory, those are just a couple of ways for reading data on each language.
 
-When reading line by line, java offers a couple of tools much more simpler to tokenize or split a string into tokens (words). This will be the split() method and the StringTokenizer class. After tokenizing, many times we need to transform strings to native data types (int, long, double, etc) or vice versa, and in Java is also quite straightforward using their wrapper classes:https://www.javatpoint.com/wrapper-class-in-java (Integer, Long, Double, etc) and the plus operator (+) to concatenate native types to Strings. In C++, those tasks are a bit less straightforward, as always there are many ways to do it.
+When reading line by line, java offers a couple of tools much more simpler to tokenize or split a string into tokens (words). This will be the ```split()``` method and the ```StringTokenizer``` class. After tokenizing, many times we need to transform strings to native data types (int, long, double, etc) or vice versa, and in Java is also quite straightforward using their wrapper classes:https://www.javatpoint.com/wrapper-class-in-java (Integer, Long, Double, etc) and the plus operator (+) to concatenate native types to Strings. In C++, those tasks are a bit less straightforward, as always there are many ways to do it.
 
 In this file https://github.com/niquefa/python-to-cpp-or-java/blob/main/LineByLineWithTestCases.cpp you will find some useful functions to process strings in C++.
 
@@ -82,13 +82,15 @@ Check how to do it in C++ https://stackoverflow.com/questions/17531573/command-t
 
 # Printing Data
 
-The main difference you will notice going from python to C++ or Java in printing data in programming contests, is that in python we are used to always getting a new line for each call to print(). Although we have a workaround in python to not print the new line, and is use print(“Some message or variable”, end=””) or to use import sys and sys.stdout.write("Hello there!") , but in C++ and java is the other way around, we must explicitly print the new line:
+The main difference you will notice going from python to C++ or Java in printing data in programming contests, is that in python we are used to always getting a new line for each call to print(). Although we have a workaround in python to not print the new line, and is use ```print(“Some message or variable”, end=””)``` or to use import sys and sys.stdout.write("Hello there!") , but in C++ and java is the other way around, we must explicitly print the new line:
 
-In C++ we usually use “endl” to print a new line:
+In C++ we usually use ```endl``` to print a new line:
 
+```
 cout << “Some message or variable” << answer << endl;
+```
 
-And in Java we use either System.out.println(“Some message or variable”) for printing with newline, or System.out.print(“Some message or variable”) to print without newline.
+And in Java we use either ```System.out.println(“Some message or variable”)``` for printing with newline, or ```System.out.print(“Some message or variable”)``` to print without newline.
 
 Additionally to these hints about printing in C++ and Java, there are some special tools in both languages for printing with even more speed, thus increasing the advantage of using this languages instead of Python for programming contests.
 
