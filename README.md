@@ -74,7 +74,7 @@ In this repo you will find several templates to read data from standard input in
 
 When reading line by line, java offers a couple of tools much more simpler to tokenize or split a string into tokens (words). This will be the split() method and the StringTokenizer. After tokenizing, many times we need to transform strings to native data types (int, long, double, etc) or vice versa, and in Java is also quite straightforward using their wrapper classes (Integer, Long, Double, etc) and the plus operator (+) to concatenate native types to Strings. In C++, those tasks are a bit less straightforward, as always there are many ways to do it, but this methods could help a lot:
 
-In [LineByLineWithTestCases.cpp]([url](https://github.com/niquefa/python-to-cpp-or-java/blob/main/LineByLineWithTestCases.cpp)) you will find some useful function to process strings in C++.
+In [this]([url](https://github.com/niquefa/python-to-cpp-or-java/blob/main/LineByLineWithTestCases.cpp)) file you will find some useful function to process strings in C++.
 
 # Printing Data
 
