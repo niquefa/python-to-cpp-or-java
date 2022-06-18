@@ -1,0 +1,10 @@
+3
+2 3
+this is a
+string matrix 3x3 
+3 2
+this is
+a string
+matrix 3x2
+1 6
+this is a string row 1x6
