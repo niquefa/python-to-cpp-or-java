@@ -8,7 +8,7 @@ Starting the language change from Python to C++ or java for programming contests
 - [x] Ending sentences
 - [x] Data types.
 - [x] Indentation vs brackets.
-- [ ] Reading data 
+- [x] Reading data 
 - [x] Printing data.
 
 # Using parenthesis
@@ -188,7 +188,7 @@ As a rule, every java program in a programming contest should have a class and t
 # Extra notes on C++
 WORK IN PROGRESS
 
-# seful links:
+# Useful links:
 * Notes on C++ in mac:https://codeforces.com/blog/entry/101012
 * Reading standard input in python: https://stackoverflow.com/questions/1450393/how-do-i-read-from-stdin 
 
@@ -204,3 +204,6 @@ WORK IN PROGRESS
 - [ ] Compare the use of set, unordered_set in C++ and TreeSet and HashSet in Java with the sets in python
 - [ ] Compare the use of map, unordered_map in C++ and TreeMap and HashMap in Java with the maps in python
 
+Feel free to [contribute]([url](https://github.com/firstcontributions/first-contributions)), there is a lot we can do here. 
+
+Also feel free to use this resources as you want. 
