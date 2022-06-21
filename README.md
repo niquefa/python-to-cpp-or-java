@@ -30,14 +30,14 @@ One aspect that is key in programming competition (and sometimes in software dev
 | Java | int                   | long                  | -9223372036854775808 | 9223372036854775807 |
 
 ### C++ data types:
-https://www.tutorialspoint.com/cplusplus/cpp_data_types.htm
+For more on C++ native data types, check this: https://www.tutorialspoint.com/cplusplus/cpp_data_types.htm
 
 ### Java native data types:
-https://www.javatpoint.com/java-data-types 
+For more on java native data types, check this: https://www.javatpoint.com/java-data-types 
 
 ### Java Big Integer
 In C++ if we want arbitrary presition integers, we must build the class, in java we have the BigInteger class:
-https://www.baeldung.com/java-biginteger
+https://www.baeldung.com/java-biginteger, for clarity for only-python-programmers, python works with big integer all the time basically. 
 
 # Indentation and brackets
 
