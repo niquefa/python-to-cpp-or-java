@@ -20,6 +20,25 @@ In Java and C++ practically all sentences, flow control sentences and data const
 # Data types
 In python we are used to just declare, initialize and/or use variables without declaring its type (https://realpython.com/python-data-types/), this is because the type is assigned during the interpretation. In C++ (https://cplusplus.com/doc/tutorial/variables/) and java(https://www.javatpoint.com/java-variables) we usually specify the types when declaring a variable, and even inside the argument declarations inside functions(methods in java). Although, there are workarounds for this in both C++ (https://docs.microsoft.com/en-us/cpp/cpp/auto-cpp?view=msvc-170) and java (https://www.geeksforgeeks.org/var-keyword-in-java/), somehow we always must at least use a reserved word to declare a variable, **auto** in c++ or **var** in java for example.
 
+## The length of data types
+
+One aspect that is key in programming competition (and sometimes in software development), is the presition of data types. In Python we are use to just add, substract, multiply and divide numbers not regarding its size, but in typed languages as c++ and java this is a very important and integer overflow is a quite common mistake. Basically, we must always must check if the input, intermedia computation and output to solve a problem fit into a specific data type. The most common mistake is choosing a 32 bit integer over a 64 bit integer, so keep this numbers in mind all the time:
+
+|      | 32 bit signed integer | 32 bit signed integer | Min value            | Max value           |
+|------|-----------------------|-----------------------|----------------------|---------------------|
+| C++  | int                   | long long             | -2147483648          | 2147483647          |
+| Java | int                   | long                  | -9223372036854775808 | 9223372036854775807 |
+
+### C++ data types:
+https://www.tutorialspoint.com/cplusplus/cpp_data_types.htm
+
+### Java native data types:
+https://www.javatpoint.com/java-data-types 
+
+### Java Big Integer
+In C++ if we want arbitrary presition integers, we must build the class, in java we have the BigInteger class:
+https://www.baeldung.com/java-biginteger
+
 # Indentation and brackets
 
 In python we do not use brackets **{}** or semicolons **;** to group lines of code in the same level, we use indentation, but in C++ and java we must use brackets and semicolons, in fact, correct indentation is desirable for good practices, but not mandatory to get the code to compile and run.
