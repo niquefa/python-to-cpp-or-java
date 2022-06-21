@@ -24,7 +24,7 @@ In python we are used to just declare, initialize and/or use variables without d
 
 One aspect that is key in programming competition (and sometimes in software development), is the presition of data types. In Python we are use to just add, substract, multiply and divide numbers not regarding its size, but in typed languages as c++ and java this is a very important and integer overflow is a quite common mistake. Basically, we must always must check if the input, intermedia computation and output to solve a problem fit into a specific data type. The most common mistake is choosing a 32 bit integer over a 64 bit integer, so keep this numbers in mind all the time:
 
-|      | 32 bit signed integer | 32 bit signed integer | Min value            | Max value           |
+|      | 32 bit signed integer | 64 bit signed integer | Min value            | Max value           |
 |------|-----------------------|-----------------------|----------------------|---------------------|
 | C++  | int                   | long long             | -2147483648          | 2147483647          |
 | Java | int                   | long                  | -9223372036854775808 | 9223372036854775807 |
